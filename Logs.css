@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	background: url(sunset.png);
+	background-position: center;
+	background-size: cover;
+	font-family: 'Quicksand', sans-serif;
+}
+.Log{
+	width: 360px;
+	height: 500px;
+	background: transparent;
+	color: #fff;
+	top: 60%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 30px;
+	padding: 70px 30px;
+}
+.Log p{
+	font-weight: bold;
+	padding: 7px;
+}
+.Log input[type="text"]{
+	width: 100%;
+	margin-bottom: 20px;
+	font-weight: bold;
+	background: transparent;
+	color: #fff;
+	height: 8%;
+}
+.Log input[type="password"]{
+	width: 100%;
+	margin-bottom: 20px;
+	font-weight: bold;
+	background: transparent;
+	color: #fff;
+	height: 8%;
+}
+.Log input[type="submit"]{
+	width: 30%;
+	margin-bottom: 20px;
+	font-weight: bold;
+	background: grey;
+	color: #fff;
+	height: 8%;
+}
